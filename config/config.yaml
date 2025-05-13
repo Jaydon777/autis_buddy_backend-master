@@ -1,0 +1,22 @@
+paths:
+  output:
+    midi: output/midi
+    json: output/json
+    plots: output/plots
+  data: data/sample_data
+
+processing:
+  eeg:
+    interval_length: 5
+    frequency_bands:
+      delta: [0.5, 4]
+      theta: [4, 8]
+      alpha: [8, 13]
+      beta: [13, 30]
+      gamma: [30, 100]
+
+visualization:
+  plot_settings:
+    figsize: [12, 6]
+    dpi: 100
+    style: default

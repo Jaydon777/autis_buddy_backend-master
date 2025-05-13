@@ -1,0 +1,42 @@
+services:
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8005:8005"
+    restart: unless-stopped
+    container_name: autis-backend
+    networks:
+      - backend
+    labels:
+      - traefik.enable=true
+      # HTTPS Router
+      - traefik.http.routers.autis-backend-https.rule=Host(`autis-backend.aadinagarajan.com`)
+      - traefik.http.routers.autis-backend-https.entrypoints=websecure
+      - traefik.http.routers.autis-backend-https.tls=true
+      - traefik.http.routers.autis-backend-https.tls.certresolver=cloudflare
+      # Service (Backend)
+      - traefik.http.services.autis-backend.loadbalancer.server.port=8005
+  traefik:
+    image: docker.io/library/traefik:v3.3.4
+    container_name: traefik
+    ports:
+      - 80:80
+      - 443:443
+      # --> (Optional) Enable Dashboard, don't do in production
+      # - 8080:8080
+      # <--
+    volumes:
+      - /run/docker.sock:/run/docker.sock:ro
+      - ./config/:/etc/traefik/:ro
+      - ./certs/:/var/traefik/certs/:rw
+    environment:
+      - CF_DNS_API_TOKEN=${CF_DNS_API_TOKEN}
+    networks:
+      - backend
+    restart: unless-stopped
+
+networks:
+  backend:
+    external: false 

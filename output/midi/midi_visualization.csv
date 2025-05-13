@@ -1,0 +1,79 @@
+0, 0, Header, 1, 2, 480
+1, 0, Start_track
+1, 0, Tempo, 1000000
+1, 0, Time_signature, 4, 2, 24, 8
+1, 0, Text_t, "Key: A minor"
+1, 0, End_track
+2, 0, Start_track
+2, 0, Title_t, "EEG-Generated Notes"
+2, 0, Program_c, 0, 0
+2, 0, Note_on_c, 0, 69, 90
+2, 960, Note_off_c, 0, 69, 90
+2, 960, Note_on_c, 0, 69, 90
+2, 1920, Note_off_c, 0, 69, 90
+2, 1920, Note_on_c, 0, 68, 92
+2, 2928, Note_off_c, 0, 68, 92
+2, 2928, Note_on_c, 0, 65, 94
+2, 3888, Note_off_c, 0, 65, 94
+2, 3888, Note_on_c, 0, 69, 90
+2, 4896, Note_off_c, 0, 69, 90
+2, 4896, Note_on_c, 0, 68, 92
+2, 5904, Note_off_c, 0, 68, 92
+2, 5904, Note_on_c, 0, 61, 97
+2, 6912, Note_off_c, 0, 61, 97
+2, 6912, Note_on_c, 0, 67, 92
+2, 7872, Note_off_c, 0, 67, 92
+2, 7872, Note_on_c, 0, 68, 90
+2, 8832, Note_off_c, 0, 68, 90
+2, 8832, Note_on_c, 0, 62, 96
+2, 9792, Note_off_c, 0, 62, 96
+2, 9792, Note_on_c, 0, 68, 92
+2, 10752, Note_off_c, 0, 68, 92
+2, 10752, Note_on_c, 0, 69, 90
+2, 11712, Note_off_c, 0, 69, 90
+2, 11712, Note_on_c, 0, 64, 96
+2, 12672, Note_off_c, 0, 64, 96
+2, 12672, Note_on_c, 0, 68, 90
+2, 13680, Note_off_c, 0, 68, 90
+2, 13680, Note_on_c, 0, 66, 92
+2, 14688, Note_off_c, 0, 66, 92
+2, 14688, Note_on_c, 0, 65, 94
+2, 15648, Note_off_c, 0, 65, 94
+2, 15648, Note_on_c, 0, 67, 92
+2, 16656, Note_off_c, 0, 67, 92
+2, 16656, Note_on_c, 0, 68, 90
+2, 17616, Note_off_c, 0, 68, 90
+2, 17616, Note_on_c, 0, 68, 90
+2, 18576, Note_off_c, 0, 68, 90
+2, 18576, Note_on_c, 0, 68, 92
+2, 19536, Note_off_c, 0, 68, 92
+2, 19536, Note_on_c, 0, 66, 92
+2, 20544, Note_off_c, 0, 66, 92
+2, 20544, Note_on_c, 0, 68, 92
+2, 21504, Note_off_c, 0, 68, 92
+2, 21504, Note_on_c, 0, 69, 90
+2, 22512, Note_off_c, 0, 69, 90
+2, 22512, Note_on_c, 0, 69, 90
+2, 23472, Note_off_c, 0, 69, 90
+2, 23472, Note_on_c, 0, 67, 92
+2, 24432, Note_off_c, 0, 67, 92
+2, 24432, Note_on_c, 0, 68, 90
+2, 25392, Note_off_c, 0, 68, 90
+2, 25392, Note_on_c, 0, 69, 90
+2, 26400, Note_off_c, 0, 69, 90
+2, 26400, Note_on_c, 0, 68, 92
+2, 27360, Note_off_c, 0, 68, 92
+2, 27360, Note_on_c, 0, 68, 90
+2, 28320, Note_off_c, 0, 68, 90
+2, 28320, Note_on_c, 0, 68, 92
+2, 29328, Note_off_c, 0, 68, 92
+2, 29328, Note_on_c, 0, 69, 90
+2, 30288, Note_off_c, 0, 69, 90
+2, 30288, Note_on_c, 0, 69, 90
+2, 31248, Note_off_c, 0, 69, 90
+2, 31248, Note_on_c, 0, 69, 90
+2, 32256, Note_off_c, 0, 69, 90
+2, 32256, Note_on_c, 0, 62, 96
+2, 33216, Note_off_c, 0, 62, 96
+2, 33216, End_track
+0, 0, End_of_file
